@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+  font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(223, 35, 35);
+}
+#container::-webkit-scrollbar {
+  height: 0px;
+}
+.favourite {
+  display: none;
+}
+.movie:hover .favourite {
+  display: block;
+}
